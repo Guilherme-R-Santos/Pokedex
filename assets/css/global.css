@@ -1,0 +1,141 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dd2323;
+}
+
+.top-detail {
+    padding-bottom: 1em;
+}
+
+.top-circle {
+    border-radius: 3em;
+    display: inline-block;
+    border: #dbcaca .256rem solid;
+}
+
+#circle1 {
+    width: 4em;
+    height: 4em; 
+    background-color: #87bdfa;
+    border: #dbcaca .256rem solid;
+}
+
+#circle2 {
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+    background-color: #eb1d0f;
+    border: #dbcaca .172rem solid;
+}
+
+#circle3 {
+    width: 2em;
+    height: 2em;
+    background-color: #faf603;
+    border: #dbcaca .172rem solid;
+}
+
+#circle4 {
+    width: 2em;
+    height: 2em;
+    background-color: #15ff00;
+    border: #dbcaca .172rem solid;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #f02a2a;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.h1-area {
+    text-align: left;
+    margin: 1rem;
+    background-color: #000136;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: #dbcaca .256rem solid;
+    background-image: url('../../img/Pokeball.png.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .168rem 1rem;
+    background-color: #000136;
+    border-radius: 1rem;
+    border: #dbcaca .256rem solid;
+    color: #dbcaca;
+}
+
+#home {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    background-color: #87bdfa;
+    border: none;
+    border-radius: 1rem;
+    border: #dbcaca .256rem solid;
+    color: black;
+}
+
+#previous {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    color: black;
+    background-color: #eb1d0f;
+    border: #dbcaca .172rem solid;
+    border-radius: 1rem;
+}
+
+#next {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    color: black;
+    background-color: #faf603;
+    border: #dbcaca .172rem solid;
+    border-radius: 1rem;
+}
+
+#search-bar {
+    background-color: #ffffff;
+    border: #15ff00 .172rem solid;
+    border-radius: 1rem;
+    resize: none;
+    height: 1.8rem;
+    color: black;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}

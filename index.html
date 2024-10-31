@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+    <link rel="stylesheet" href="./assets/css/poke-info.css">
+    <!-- Google Fonts (Roboto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./img/favicon_io/favicon.ico" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <section class="content">
+        <div class="top-detail">
+            <div class="top-circle" id="circle1"></div>
+            <div class="top-circle" id="circle2"></div>
+            <div class="top-circle" id="circle3"></div>
+            <div class="top-circle" id="circle4"></div>
+        </div>
+        <div class="nav">
+            <buttom id="home" class="nav-button">Home</buttom>
+            <button id="previous" class="nav-button">Previous</button>
+            <button id="next" class="nav-button">Next</button>
+            <textarea name="search" id="search-bar" placeholder="Search..."></textarea>
+        </div>
+        <div class="h1-area">
+            <h1>Pokedex</h1>
+        </div>
+
+        <div id="pokemonDetails" class="pokemonDetails">
+            <!--....... pokemon details here .......-->
+        </div>
+
+        <ol id="pokemonList" class="pokemons">
+            <!--....... pokemons here .......-->
+        </ol>
+
+        <div class="pagination">
+
+            <button type="button" id="backToTop">
+                Back to top
+            </button>
+
+        </div>      
+        <footer>
+            
+            <p>Developed by <a href="https://github.com/Guilherme-R-Santos" target="_blank">Guilherme Santos</a></p>
+        </footer>
+    </section>
+
+
+    <!-- JS -->
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
