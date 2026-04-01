@@ -98,16 +98,12 @@ Ao clicar em um Pokémon, a interface mostra:
 - `assets/js/main.js`: renderização, eventos da interface e paginação.
 - `assets/css/*.css`: estilos globais, lista principal e tela de detalhes.
 
-## Galeria
-
 <p align="center">
 	<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/25.gif" alt="Pikachu animado" width="120" />
 	<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif" alt="Charizard animado" width="120" />
 	<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/94.gif" alt="Gengar animado" width="120" />
 	<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/149.gif" alt="Dragonite animado" width="120" />
 </p>
-
-<p align="center"><i>Visual lúdico inspirado no universo Pokemon.</i></p>
 
 ## Estrutura de pastas
 
